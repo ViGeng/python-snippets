@@ -1,9 +1,16 @@
 '''
+GenAI Prompt:
 please wirte a simple python script to show me how to meet the requirements:
 1. a single program running 2 threads
 2. each thread running an event loop which running 2 tasks(routines)
 3. routine1 is a websocket server and routine2 is a websocket sneder
 4. with detailed comments and make the code modular
+'''
+
+'''
+In Python's asyncio, when you use the await keyword, 
+you're telling the event loop that it can go off and 
+do something else in the meantime, like executing other coroutines.
 '''
 
 import asyncio
