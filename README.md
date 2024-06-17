@@ -10,9 +10,13 @@
   * using `threading` and event loop
   * server-client communication
   * ![running log](./assets/readme/routines.png)
-
+- [x] multi-process: server and client
+  * using `multiprocessing` and `websockets`
+  * server-client communication
+  * ![two processes are running on different cores](./assets/readme/multi-process.png)
 ## TODO
 - [ ] Network
   - [ ] webrtc
   - [ ] websockets
+  
 - [ ] enhance `multi thread and routines` to Proc-Thread-routines
